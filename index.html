@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Formulário de Compra</title>
+</head>
+<body>
+  <div class="container">
+    <div class="form__img">
+      <img src="assets/img/undraw_add_to_cart_re_wrdo.svg" alt="">
+    </div>
+    
+      <div class="form">
+        <form action="#">
+          <div class="form__header">
+            <div class="title">
+                <h1>Cadastre-se</h1>
+            </div>
+          </div>
+          <div class="input__group">
+            <div class="input__box">
+              <label for="firstaname">Primeiro Nome</label>
+              <input id="firstname" type="text" name="firstname" placeholder="Digite o seu primeiro nome" required>
+            </div>
+
+            <div class="input__box">
+              <label for="lastname">Sobrenome</label>
+              <input id="lastname" type="text" name="lastname" placeholder="Digite o seu sobrenome" required>
+            </div>
+
+            <div class="input__box">
+              <label for="email">Email</label>
+              <input id="email" type="email" name="email" placeholder="Digite o seu email" required>
+            </div>
+
+            <div class="input__box">
+              <label for="number">celular</label>
+              <input id="number" type="text" name="number" placeholder="(xx) xxxxx-xxxx" required>
+            </div>
+
+            <div class="input__box">
+              <label for="password">Senha</label>
+              <input id="password" type="text" name="password" placeholder="Digite a sua senha" required>
+            </div>
+
+            <div class="input__box">
+              <label for="confirmpassword">Confirme sua senha</label>
+              <input id="confirmpassword" type="text" name="confirmpassword" placeholder="Confirme a sua senha" required>
+            </div>
+          </div>
+
+          <div class="gender__inputs">
+            <div class="gender__title">
+              <h6>Gênero</h6>
+            </div>
+            
+            <div class="gender__group">
+              <div class="gender__input">
+                <input type="radio" name="gender" id="female">
+                <label for="female">Feminino</label>
+              </div>
+
+              <div class="gender__input">
+                <input type="radio" name="gender" id="male">
+                <label for="male">Maculino</label>
+              </div>
+
+              <div class="gender__input">
+                <input type="radio" name="gender" id="others">
+                <label for="others">Outros</label>
+              </div>
+
+              <div class="gender__input">
+                <input type="radio" name="gender" id="none">
+                <label for="none">Prefiro não dizer</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="sticker__inputs">
+            <div class="sticker__title">
+              <h6>selecione os adesivos que você deseja adquirir: </h6>
+            </div>
+
+            <div class="sticker__group">
+              <div class="sticker__input">
+                <input type="checkbox" name="sticker" id="react">
+                <label for="react">React</label>
+                <div class="sticker__box">
+                  <div class="slider">
+                    <input type="range" min="0" max="100" value="20" name="sticker" id="react">  
+                  </div>
+                  <div class="value">100</div>
+                </div>
+              </div>
+
+              <div class="sticker__input">
+                <input type="checkbox" name="sticker" id="js">
+                <label for="js">javascript</label>
+              </div>
+
+              <div class="sticker__input">
+                <input type="checkbox" name="sticker" id="angular">
+                <label for="angular">Angular</label>
+              </div>
+
+              <div class="sticker__input">
+                <input type="checkbox" name="sticker" id="rn">
+                <label for="rn">React Native</label>
+              </div>
+
+              <div class="sticker__input">
+                <input type="checkbox" name="sticker" id="node">
+                <label for="node">NodeJS</label>
+              </div>
+
+              <div class="sticker__input">
+                <input type="checkbox" name="sticker" id="sql">
+                <label for="sql">SQL</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="send__button">
+            <button><a href="#">Enviar</a></button>
+          </div>
+        </form>    
+    </div>
+  </div> 
+</body>
+</html>
